@@ -1,4 +1,3 @@
-3.Steuerelemente-benutzen-Teil1
-===============================
+# 3.Steuerelemente-benutzen-Teil1
 
-Arbeiten mit dem Oberflächen-Designer
+Hier erfolgen Hinweise zur Arbeit mit dem Oberflächen-Designer.
