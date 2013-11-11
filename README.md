@@ -1,3 +1,3 @@
-# 3.Steuerelemente-benutzen-Teil1
+# 3.Steuerelemente-platzieren
 
 Hier erfolgen Hinweise zur Arbeit mit dem Oberflächen-Designer.
