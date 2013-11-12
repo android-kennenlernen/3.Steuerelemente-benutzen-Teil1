@@ -1,13 +1,11 @@
-# 3. Steuerelemente einbringen
+﻿# 3. Steuerelemente einbringen
 
-Hier erfolgen nun die Hinweise zur Erstellung einer Nutzer-Oberfläche.
-
+Hier erfolgen nun die Hinweise zur Erstellung einer Nutzer-Oberfläche.  
 Es wird erläutert, wie Steuerelemente ins Layout eingebracht werden und diese individuell umbenannt und beschriftet werden können.
 
 __Hilfestellung__
 
-Zunächst ist ein neues Android-Projekt erstellen.
-
+Zunächst ist ein neues Android-Projekt erstellen.  
 Dann wird im Projekt-Verzeichnis zu    
 &nbsp;&nbsp;&nbsp;&nbsp;**res/layout/activity_main.xml**  
 gewechselt.
@@ -27,7 +25,7 @@ Nun werden mittels des Oberflächen-Designer
 in die Oberfläche der Activity eingebracht.
 
 Als erstes die pinkfarbene abc-'EditText' aus 'Form Widgets' auf das Layout ziehen.  
-Hierzu mit der rechter Maustaste anklicken und Taste __gedrückt__ halten.  
+Hierzu mit der rechter Maustaste anklicken und die Taste __gedrückt__ halten.  
 Nun den Mauszeiger in Richtung Layout bewegen.  
 Dort angekommen, kann die rechte Maustaste wieder losgelassen werden.  
 
@@ -112,9 +110,10 @@ Nach dem Einbringen der Steuerelemente sollte die **activity_main.xml** nun so a
 </RelativeLayout>
 ```
 
+Das Layout ist nun soweit vorbereitet, das zur nächsten App [4.Steuerelemente auslesen](https://github.com/android-kennenlernen/4.Steuerelemente-auslesen) übergegangen werden kann.
 
 
-Was sollten wir nun beherrschen?
+__Was sollten wir nun beherrschen?__
 
 - Einbringen von Steuerelementen
 - Vergabe von selbstgewählten Bezeichnern für dieselben
