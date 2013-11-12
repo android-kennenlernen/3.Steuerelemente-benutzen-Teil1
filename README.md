@@ -1,28 +1,61 @@
 # 3. Steuerelemente einbringen
 
-[In Aufbau]
-
 Hier erfolgen nun die Hinweise zur Erstellung einer Nutzer-Oberfläche.
 
-----
+Es wird erläutert, wie Steuerelemente ins Layout eingebracht werden und diese individuell umbenannt und beschriftet werden können.
 
 __Hilfestellung__
 
 Zunächst ist ein neues Android-Projekt erstellen.
 
-Dann wird im Projekt-Verzeichnis zu  
-**res/layout/activity_main.xml**
+Dann wird im Projekt-Verzeichnis zu    
+&nbsp;&nbsp;&nbsp;&nbsp;**res/layout/activity_main.xml**  
 gewechselt.
 
 Wenn Ihr auf diesen Dateinamen klickt, öffnet sich das 'Graphical Layout'.  
 
-Nun werden mittels dieses Oberflächen-Designer
+![Image](./readme-img/1-graphical-layout-original-remove-hw-small.png)
+
+Als nächstes diese 'Hello world!'-TextView per Taste 'Entf' entsorgen.
+
+Nun werden mittels des Oberflächen-Designer
 
 - 1 EditText
 - 1 TextView
 - 1 Schalter namens 'btnDrueckDochMal'
 - 1 Schalter namens 'btnRaeumeAuf'
 in die Oberfläche der Activity eingebracht.
+
+Als erstes die pinkfarbene abc-'EditText' aus 'Form Widgets' auf das Layout ziehen.  
+Hierzu mit der rechter Maustaste anklicken und Taste __gedrückt__ halten.  
+Nun den Mauszeiger in Richtung Layout bewegen.  
+Dort angekommen, kann die rechte Maustaste wieder losgelassen werden.  
+
+![Image](./readme-img/2-graphical-layout-add-edittext-small-tagged.png)
+
+Nun die pinkfarbene 'TextView' aus 'Form Widgets' auf das Layout ziehen.
+
+![Image](./readme-img/3-graphical-layout-add-textview-tagged.png)
+
+Dann in 'Form Widgets' den 'Button' in der obersten Zeile rechts anvisieren und auf das Layout befördern.  
+Wenn Ihr dann auf den Schalter im Layout klickt, werden im 'Properties'-Fenster die Eigenschaften des Schalters sichtbar.  
+Dort sind nun die beiden pinkfarben markierten Eigenschaften anzupassen.
+
+![Image](./readme-img/4-graphical-layout-add-drueckDochMal-tagged.png)
+
+Die ursprüngliche __id__ 'button1' ist nach 'btnDrueckDochMal' umzubennen und der ursprüngliche __Text__ mit 'Drück Doch Mal' zu beschriften.
+
+Wozu tun wir das? Weil wir mit dieser App im nächsten Projekt weiter arbeiten werden.
+
+Zwischen durch erscheint dieser Dialog, wo man unbedenklich die Checkbox 'Do not show again' abhaken kann.  
+Dann Schalter 'Yes' betätigen. 
+
+![Image](./readme-img/41-update-refs.png)
+
+Dann den nächsten Schalter hinzufügen.  
+Diese wird nach 'btnRaeumeAuf' umbenannt und mit 'Räume auf' beschriftet.
+
+![Image](./readme-img/5-graphical-layout-add-raeumeAuf-tagged.png)
 
 Nach dem Einbringen der Steuerelemente sollte die **activity_main.xml** nun so aussehen:
 
@@ -78,6 +111,8 @@ Nach dem Einbringen der Steuerelemente sollte die **activity_main.xml** nun so a
 
 </RelativeLayout>
 ```
+
+
 
 Was sollten wir nun beherrschen?
 
